@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		08121128273292CC005C3B36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08121127273292CC005C3B36 /* AppDelegate.swift */; };
 		0812112A273292CC005C3B36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08121129273292CC005C3B36 /* SceneDelegate.swift */; };
-		0812112C273292CC005C3B36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0812112B273292CC005C3B36 /* ViewController.swift */; };
 		0812112F273292CC005C3B36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0812112D273292CC005C3B36 /* Main.storyboard */; };
 		08121131273292CC005C3B36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08121130273292CC005C3B36 /* Assets.xcassets */; };
 		08121134273292CC005C3B36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08121132273292CC005C3B36 /* LaunchScreen.storyboard */; };
+		0812113E2732946C005C3B36 /* Races.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0812113D2732946C005C3B36 /* Races.swift */; };
+		0812114327329B14005C3B36 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0812114227329B14005C3B36 /* WelcomeViewController.swift */; };
+		0812114527329E9B005C3B36 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0812114427329E9B005C3B36 /* FormViewController.swift */; };
+		081211472732A4B8005C3B36 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081211462732A4B8005C3B36 /* SuccessViewController.swift */; };
+		081211492732BAFD005C3B36 /* CatWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081211482732BAFD005C3B36 /* CatWelcomeViewController.swift */; };
+		0812114D2732C8DE005C3B36 /* CatSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0812114C2732C8DE005C3B36 /* CatSuccessViewController.swift */; };
+		0812114F2732E940005C3B36 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0812114E2732E940005C3B36 /* Model.swift */; };
+		0880E3D22733247300074B22 /* CatFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880E3D12733247300074B22 /* CatFormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		08121124273292CC005C3B36 /* Miawouf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Miawouf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08121127273292CC005C3B36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08121129273292CC005C3B36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0812112B273292CC005C3B36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0812112E273292CC005C3B36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08121130273292CC005C3B36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08121133273292CC005C3B36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08121135273292CC005C3B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0812113D2732946C005C3B36 /* Races.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Races.swift; sourceTree = "<group>"; };
+		0812114227329B14005C3B36 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = Miawouf/WelcomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		0812114427329E9B005C3B36 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		081211462732A4B8005C3B36 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		081211482732BAFD005C3B36 /* CatWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatWelcomeViewController.swift; sourceTree = "<group>"; };
+		0812114C2732C8DE005C3B36 /* CatSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatSuccessViewController.swift; sourceTree = "<group>"; };
+		0812114E2732E940005C3B36 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0880E3D12733247300074B22 /* CatFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +72,44 @@
 			children = (
 				08121127273292CC005C3B36 /* AppDelegate.swift */,
 				08121129273292CC005C3B36 /* SceneDelegate.swift */,
-				0812112B273292CC005C3B36 /* ViewController.swift */,
-				0812112D273292CC005C3B36 /* Main.storyboard */,
-				08121130273292CC005C3B36 /* Assets.xcassets */,
-				08121132273292CC005C3B36 /* LaunchScreen.storyboard */,
 				08121135273292CC005C3B36 /* Info.plist */,
+				0812113F27329530005C3B36 /* Model */,
+				081211402732954D005C3B36 /* Controller */,
+				0812114127329561005C3B36 /* View */,
 			);
 			path = Miawouf;
+			sourceTree = "<group>";
+		};
+		0812113F27329530005C3B36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0812113D2732946C005C3B36 /* Races.swift */,
+				0812114E2732E940005C3B36 /* Model.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		081211402732954D005C3B36 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0812114227329B14005C3B36 /* WelcomeViewController.swift */,
+				081211462732A4B8005C3B36 /* SuccessViewController.swift */,
+				081211482732BAFD005C3B36 /* CatWelcomeViewController.swift */,
+				0812114C2732C8DE005C3B36 /* CatSuccessViewController.swift */,
+				0812114427329E9B005C3B36 /* FormViewController.swift */,
+				0880E3D12733247300074B22 /* CatFormViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0812114127329561005C3B36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0812112D273292CC005C3B36 /* Main.storyboard */,
+				08121132273292CC005C3B36 /* LaunchScreen.storyboard */,
+				08121130273292CC005C3B36 /* Assets.xcassets */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0812112C273292CC005C3B36 /* ViewController.swift in Sources */,
+				0812113E2732946C005C3B36 /* Races.swift in Sources */,
+				0812114D2732C8DE005C3B36 /* CatSuccessViewController.swift in Sources */,
+				0812114327329B14005C3B36 /* WelcomeViewController.swift in Sources */,
 				08121128273292CC005C3B36 /* AppDelegate.swift in Sources */,
+				0812114F2732E940005C3B36 /* Model.swift in Sources */,
+				0880E3D22733247300074B22 /* CatFormViewController.swift in Sources */,
+				0812114527329E9B005C3B36 /* FormViewController.swift in Sources */,
+				081211492732BAFD005C3B36 /* CatWelcomeViewController.swift in Sources */,
+				081211472732A4B8005C3B36 /* SuccessViewController.swift in Sources */,
 				0812112A273292CC005C3B36 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9L96XGS6CY;
@@ -297,6 +350,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +360,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9L96XGS6CY;
@@ -325,6 +380,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +390,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
