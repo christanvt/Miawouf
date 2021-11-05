@@ -10,13 +10,13 @@
 
 ## Description
 
-Développement de la phase d'inscription d'une application de rencontre ... pour chien et chat !
-Miawouf est divisée en deux, une inscription pour les chiens et une pour les chats. Et l'inscription se fait en trois pages:
+<p>Développement de la phase d'inscription d'une application de rencontre ... pour chien et chat !</p>
+<p>Miawouf est divisée en deux, une inscription pour les chiens et une pour les chats. Et l'inscription se fait en trois pages:</p>
 
 - Une page d'accueil
 - un formulaire d'inscription
 - une page de confirmation
-  Cette application a été développée dans le cadre du Certificat de réussite "Gérez la navigation et les formulaires en iOS" validé et délivré par OpenClassrooms
+<p>Cette application a été développée dans le cadre du Certificat de réussite "Gérez la navigation et les formulaires en iOS" validé et délivré par OpenClassrooms.</p>
 
 ## Installation
 
