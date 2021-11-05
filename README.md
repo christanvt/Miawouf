@@ -16,7 +16,7 @@
 - Une page d'accueil
 - un formulaire d'inscription
 - une page de confirmation
-<p>Cette application a été développée dans le cadre du Certificat de réussite "Gérez la navigation et les formulaires en iOS" validé et délivré par OpenClassrooms.</p>
+<p>Cette application a été développée dans le cadre du Certificat de réussite "Gérez la navigation et les formulaires en iOS" validé et délivré par [OpenClassrooms](https://openclassrooms.com/fr/courses/4504841/next-page-to-do).</p>
 
 ## Installation
 
