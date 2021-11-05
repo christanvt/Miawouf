@@ -39,4 +39,5 @@ Cette application a été développée dans le cadre du Certificat de réussite 
 - Puis lancer avec ▶︎ (Start the active scheme) :
 
 <p align="center"><em>christanvt 2021</em></p>
-<p align="center">![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=christanvt.Miawouf)</p>
+
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=christanvt.Miawouf)
